@@ -1,6 +1,6 @@
-# Speak Out
+# C# Audio Recorder Application
 
-Speak Out is a simple Audio Recorder and Playback C# App:
+This repository contains a simple Audio Recorder and Playback C# App:
 - Record Audio
 - Stop Recording
 - Export Audio
