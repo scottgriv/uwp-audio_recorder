@@ -10,4 +10,4 @@ This repository contains a simple Audio Recorder and Playback C# App created wit
 **Author:** Scott Grivner <br>
 **Email:** scott.grivner@gmail.com <br>
 **Website:** [scottgrivner.dev](https://www.scottgriv.dev) <br>
-**Reference:** [Main Branch](https://github.com/scottgriv/Speak-Out)
+**Reference:** [Main Branch](https://github.com/scottgriv/csharp-audio_recorder)

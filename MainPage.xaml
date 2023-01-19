@@ -1,8 +1,8 @@
 ﻿<Page
-x:Class="Speak_Out.MainPage"
+x:Class="csharp_audio_recorder.MainPage"
 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-xmlns:local="using:Speak_Out"
+xmlns:local="using:csharp_audio_recorder"
 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 mc:Ignorable="d">

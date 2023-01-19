@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace Speak_Out
+namespace csharp_audio_recorder
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.

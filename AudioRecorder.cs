@@ -11,7 +11,7 @@ using Windows.UI.Core;
 using Windows.UI.Popups;
 using Windows.UI.Xaml.Controls;
 
-namespace Speak_Out
+namespace csharp_audio_recorder
 {
     public class AudioRecorder
     {
@@ -45,7 +45,7 @@ namespace Speak_Out
             }
             catch (Exception e)
             {
-                await new MessageDialog("You must give Speak Out access to your microphone to enable audio recording.", "No Microphone Access").ShowAsync();
+                await new MessageDialog("You must give this application access to your microphone to enable audio recording.", "No Microphone Access").ShowAsync();
                 Console.Out.WriteLine(e.StackTrace);
             }
 

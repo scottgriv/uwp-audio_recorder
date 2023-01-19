@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
 
-namespace Speak_Out
+namespace csharp_audio_recorder
 {
     /// <summary>
     // Created by: Scott Grivner
