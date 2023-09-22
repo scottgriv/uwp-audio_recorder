@@ -24,10 +24,12 @@
 -------
 
 A simple **Audio Recorder** and Playback application written in C# using Visual Studio and the Universal Windows Platform (UWP) framework. 
-- Record audio
-- Playback audio
-- Delete audio
-- Export audio to a `mp3` file
+- Under the **Record** tab:
+    - Record audio
+- Under the **Archive** tab:
+    - Playback audio
+    - Delete audio
+    - Export audio to a `mp3` file
 
 <div align="center">
     <a href="" target="_blank">
