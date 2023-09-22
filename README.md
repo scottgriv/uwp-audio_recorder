@@ -30,7 +30,7 @@ A simple **Audio Recorder** and Playback application written in C# using Visual 
 
 <div align="center">
     <a href="" target="_blank">
-        <img src="./docs/images/demo.gif" style="width: 25%;"/>
+        <img src="./docs/images/demo.gif" style="width: 50%;"/>
     </a>
     <br>
     <i>Application Preview.</i>
