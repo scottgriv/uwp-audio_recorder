@@ -1,0 +1,98 @@
+﻿<Page
+x:Class="AudioRecorder.MainPage"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:local="using:AudioRecorder"
+xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+mc:Ignorable="d">
+    <Page.Resources>
+        <DataTemplate x:Key="NewItemTemplate">
+            <TextBlock Text="{Binding DisplayName}"></TextBlock>
+        </DataTemplate>
+
+        <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="Transparent">
+        </SolidColorBrush>
+        <SolidColorBrush x:Key="ButtonBackground" Color="Transparent">
+        </SolidColorBrush>
+
+    </Page.Resources>
+
+    <Page.BottomAppBar>
+
+        <AppBar IsOpen="False" IsSticky="True" Name="appBar">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Vertical">
+                    <MediaPlayerElement x:Name="MediaPlayerEle" MaxWidth="400" AutoPlay="False" AreTransportControlsEnabled="True" />
+                </StackPanel>
+                <AutoSuggestBox Grid.Column="1" Width="400" Height="50" HorizontalAlignment="Center"/>
+            </Grid>
+
+        </AppBar>
+
+    </Page.BottomAppBar>
+
+    <Pivot x:Name="Pivot1" Title="" SelectionChanged="Pivot_SelectionChanged">
+        <PivotItem Header="Record">
+            <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="43"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1">
+
+                    <Button PointerEntered="btnRecord_PointerEntered" Background="Transparent"  Name="btnRecord" Click="btnRecord_Click" Grid.Column="0" Height="90" Width="90" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="0" BorderThickness="0">
+
+                        <Image x:Name="btnRecordImage" Source="Assets/Record-Dark.png" Stretch="UniformToFill"  Height="90" Width="90" />
+
+                    </Button>
+
+                    <TextBlock HorizontalAlignment="Center" x:Name="TimerLog" FontSize="30"></TextBlock>
+
+                </StackPanel>
+
+
+            </Grid>
+
+        </PivotItem>
+        <PivotItem Header="Archive" x:Name="Archive">
+            <Grid>
+
+                <ListView x:Name="ListView1" ItemsSource="{Binding AudioFiles}" ItemClick="itemclicked" IsItemClickEnabled="True" Margin="20,0,0,60" SelectionChanged="ListView_OnSelectionChanged">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Height="110" Margin="1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel Grid.Column="1" VerticalAlignment="Top" Margin="10,0,0,0">
+                                    <TextBox LostFocus="TextBox_LostFocus_1" Text="{Binding name}"  TextWrapping="NoWrap"/>
+                                    <TextBlock Text="{Binding date}"   TextWrapping="NoWrap"/>
+                                    <TextBlock Text="{Binding duration}" MaxHeight="60"/>
+                                    <GridView>
+                                        <Button Background="Black" x:Name="DeleteButton" Click="DeleteButton_Click" Grid.Column="0" Height="40" HorizontalAlignment="Left" VerticalAlignment="Center" Padding="0" BorderThickness="0">
+                                            <Image x:Name="btnDeleteImage" Source="Assets/Delete-Dark.png" Stretch="Uniform" Height="40" Width="40" />
+                                        </Button>
+                                        <Button Background="Black" x:Name="ExportButton" Click="ExportButton_Click" Grid.Column="0" Height="40" HorizontalAlignment="Right" VerticalAlignment="Center" Padding="0" BorderThickness="0">
+                                            <Image x:Name="btnExportImage" Source="Assets/Export-Dark.png" Stretch="Uniform" Height="40" Width="40" />
+                                        </Button>
+
+                                    </GridView>
+
+                                </StackPanel>
+                            </Grid>
+
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+            </Grid>
+
+        </PivotItem>
+    </Pivot>
+
+</Page>
