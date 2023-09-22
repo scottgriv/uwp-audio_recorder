@@ -1,4 +1,4 @@
-# C# Audio Recorder UWP Application
+# UWP C# Audio Recorder Application
 
 <p align="center">
         <img src="./docs/images/Logo-Dark.png#gh-dark-mode-only" alt="Logo-Dark" />
