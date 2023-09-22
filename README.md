@@ -93,4 +93,4 @@ The **Universal Windows Platform (UWP)** is a platform-homogeneous application a
 **Author:** Scott Grivner <br>
 **Email:** scott.grivner@gmail.com <br>
 **Website:** [scottgrivner.dev](https://www.scottgrivner.dev) <br>
-**Reference:** [Main Branch](https://github.com/scottgriv/csharp-audio_recorder)
+**Reference:** [Main Branch](https://github.com/scottgriv/uwp-audio_recorder)
