@@ -6,11 +6,14 @@
 </p>
 
 <p align="center">
-    <a href="https://www.python.org/">
+    <a href="https://docs.microsoft.com/en-us/dotnet/csharp/">
         <img src="https://img.shields.io/badge/C Sharp-7.3.0-6C287D?style=for-the-badge&logo=csharp" alt="C# Badge" />
     </a>
-    <a href="https://www.djangoproject.com/">
-        <img src="https://img.shields.io/badge/UWP-10.0.19041.0-0178D6?style=for-the-badge&logo=dotnet" alt=".NET Badge" />
+    <a href="https://docs.microsoft.com/en-us/windows/uwp/">
+        <img src="https://img.shields.io/badge/UWP-10.0.x-0178D6?style=for-the-badge&logo=dotnet" alt="UWP Badge" />
+    </a>
+    <a href="https://docs.microsoft.com/en-us/visualstudio/">
+        <img src="https://img.shields.io/badge/Visual Studio-17.3.x-5C2D91?style=for-the-badge&logo=visualstudio" alt="VS Badge" />
     </a>
     <br>
     <a href="mailto:scott.grivner@gmail.com">
@@ -23,7 +26,7 @@
 
 -------
 
-A simple **Audio Recorder** and Playback application written in C# using Visual Studio and the Universal Windows Platform (UWP) framework. 
+A simple **Audio Recorder** and Playback application written in `C#` using **Visual Studio** and the **Universal Windows Platform (UWP)** framework. 
 - Under the **Record** tab:
     - Record audio
 - Under the **Archive** tab:
@@ -60,7 +63,7 @@ The **Universal Windows Platform (UWP)** is a platform-homogeneous application a
 </div>
 
 ## Requirements
-- Visual Studio 2019
+- Visual Studio 2022
 - Windows 10 SDK (10.0.19041.0)
 
 ## Getting Started
@@ -79,6 +82,7 @@ The **Universal Windows Platform (UWP)** is a platform-homogeneous application a
 ## References
 - [C# Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
 - [Universal Windows Platform (UWP) documentation](https://docs.microsoft.com/en-us/windows/uwp/)
+- [Visual Studio Documentation](https://docs.microsoft.com/en-us/visualstudio/)
 
 ## License
 - This project is released under the terms of the **MIT License**, which permits use, modification, and distribution of the code, subject to the conditions outlined in the license.
