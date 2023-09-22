@@ -1,4 +1,5 @@
-<h1 style="text-align: center;">C# Audio Recorder UWP Application</h1>
+# C# Audio Recorder UWP Application
+
 <p align="center">
         <img src="./docs/images/Logo-Dark.png#gh-dark-mode-only" alt="Logo-Dark" />
         <img src="./docs/images/Logo-Light.png#gh-light-mode-only" alt="Logo-Light" />
