@@ -3,6 +3,11 @@
 <div align="center">
     <a href="https://github.com/scottgriv/uwp-audio_recorder" target="_blank">
         <img src="./docs/images/icon-dark.png#gh-dark-mode-only" alt="Icon-Dark" width="207" height="207" /><img src="./docs/images/icon-light.png#gh-light-mode-only" alt="Icon-Light" width="207" height="207" />
+        <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="./docs/images/icon-dark.png">
+            <source media="(prefers-color-scheme: light)" srcset="./docs/images/icon-light.png">
+            <img alt="Icon" src="./docs/images/icon-dark.png" width="207" height="207">
+        </picture>
     </a>
 </div>
 <br>
