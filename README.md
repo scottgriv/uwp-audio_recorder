@@ -48,7 +48,7 @@ A simple **Audio Recorder** and Playback application written in `C#` using **Vis
     - [Requirements](#requirements)
     - [Installation](#installation)
     - [Usage](#usage)
-- [References](#references)
+- [Resources](#resources)
 - [License](#license)
 - [Credits](#credits)
 
@@ -86,7 +86,7 @@ The **Universal Windows Platform (UWP)** is a platform-homogeneous application a
 - Click the `Delete` button to delete the recorded audio
 - Click the `Export` button to export the recorded audio to a `mp3` file
 
-## References
+## Resources
 
 - [C# Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/) - `C#` is a simple, modern, object-oriented, and type-safe programming language (used to develop the application).)
 - [Universal Windows Platform (UWP) documentation](https://docs.microsoft.com/en-us/windows/uwp/) - The Universal Windows Platform (UWP) is a platform-homogeneous application architecture created by Microsoft and first introduced in Windows 10.
