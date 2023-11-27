@@ -9,7 +9,6 @@
         </picture>
     </a>
 </div>
-<br>
 <p align="center">
     <a href="https://docs.microsoft.com/en-us/dotnet/csharp/"><img src="https://img.shields.io/badge/C Sharp-7.3.0-6C287D?style=for-the-badge&logo=csharp" alt="C# Badge" /></a>
     <a href="https://docs.microsoft.com/en-us/windows/uwp/"><img src="https://img.shields.io/badge/UWP-10.0.x-0178D6?style=for-the-badge&logo=dotnet" alt="UWP Badge" /></a>
