@@ -34,9 +34,7 @@ A simple **Audio Recorder** and Playback application written in `C#` using **Vis
     - Export audio to a `mp3` file
 
 <div align="center">
-    <a href="" target="_blank">
-        <img src="./docs/images/demo.gif" style="width: 50%;"/>
-    </a>
+    <img src="./docs/images/demo.gif" style="width: 75%;"/>
     <br>
     <i>Application Preview</i>
 </div>
