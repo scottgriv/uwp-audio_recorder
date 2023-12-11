@@ -23,7 +23,7 @@
 
 ---------------
 
-<h1 align="center">🎙️🔊 UWP C# Audio Recorder Application 🔊🎙️</h1>
+<h1 align="center">🎙️ UWP C# Audio Recorder Application 🔊</h1>
 
 A simple **Audio Recorder** and Playback application written in `C#` using **Visual Studio** and the **Universal Windows Platform (UWP)** framework. 
 - Under the **Record** tab:
