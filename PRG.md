@@ -15,7 +15,7 @@ This file is used to connect this repository to the **PRG** project categorizati
 **Repository Tier:** Silver <br>
 **Technology:** C#, Visual Studio, .NET <br>
 **Category:** Universal Windows Platform (UWP) Application <br>
-**Order:** 6 <br>
+**Order:** 11 <br>
 
 ## Parameters
 
