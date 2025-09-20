@@ -19,7 +19,7 @@ namespace AudioRecorder
 {
     /// <summary>
     // Author: Scott Grivner
-    // Website: https://www.scottgrivner.dev
+    // Website: https://www.linktr.ee/scottgriv
     /// </summary>
     /// <param name="sender">The Frame which failed navigation</param>
     /// <param name="e">Details about the navigation failure</param>
